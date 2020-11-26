@@ -1,10 +1,14 @@
+.mainwrapper {
+    cursor : default ;
+}
+
 .herosection {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: royalblue;
     height: 150px;
-    width: 100vw;
+    width: 100%;
 }
 
 .mainwrapper {
@@ -20,9 +24,10 @@
 
 .iphonesection {
     display : flex;
-    height: 100vh;
+    flex-direction: column;;
+    height: auto;
     width: 60vw;
-    background-color:#080d13;
+    background-color:rgb(3, 3, 3);
 }
 
 .iphonenavbar {
@@ -36,16 +41,130 @@
 
 .appleproducts {
     list-style: none;
-    color : rgb(185, 174, 174);
+    color : rgb(207, 207, 207);
+    display: flex;
+    padding-left: 0px;
 }
 
-.appleproducts li {
+.productref {
     display : inline-block;
-    padding: 0 42px;
+    padding-left: 31px;
+    padding-right: 31px;
 }
 
+.navicon {
+    padding-left: 31px;
+    padding-right: 31px;
+}
 
+.navproductref {
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    width: 100%;
+}
 
+.leftproductref {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightproductref {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.presentation {
+    color : grey;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.caracteristiques {
+    color : rgb(197, 197, 197);
+    font-size : 0.75em;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttonnav {
+    color : white;
+    font-size: 0.75em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right : 10px;
+    background-color: #0071E3;
+    border-radius: 55px;
+}
+
+.xsmalltitle  {
+    color : rgb(187, 187, 187);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.smalltitle {
+    color : white;
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.bigtitle {
+    color : white; 
+    text-align: center;
+    margin-bottom: -5px;
+    font-weight: 650;
+    font-size: 3rem;
+}
+
+.iphoneswrapper {
+    display: flex;
+    flex-direction: row;
+    height: 1=200%;
+    width: 90%;
+    margin: auto;
+    background-color: wheat;   
+    position: static;
+    z-index: 0;
+}
+
+.leftiphone {
+    display: flex;
+    height: 950px;
+    left: 6%;
+    position: absolute;
+    z-index: 2;
+}
+
+.middleiphone {
+    display: flex;
+    height: 950px;
+    position: absolute;
+    left : 22%;
+    top : 700px;
+    z-index: 4;
+}
+
+.rightiphone {
+    display: flex;
+    height: 950px;
+    left : 35%; 
+    top : 1000px;
+    position: absolute;
+    z-index: 3;
+}
 
 /*********************************************/
 /************ IPHONE SECTION *****************/
