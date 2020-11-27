@@ -67,23 +67,111 @@ export default function Sandbox () {
                     </div>
                 </nav>
 
-                <span className={styles.smalltitle}> iPhone 12 Pro</span>
-                <span className={styles.bigtitle}> On n'arrête pas le progrès.</span>
-                <span className={styles.bigtitle}> On l'accélère</span>
+                <motion.span initial="hidden" animate="visible" variants={{
+                    hidden : {
+                        scale : 0,
+                        opacity : 0
+                    },
+                    visible : {
+                        scale : 2,
+                        opacity : 1,
+                        transition : {
+                            delay : 1
+                        }
+
+                    }
+                }} className={styles.smalltitle}> iPhone 12 Pro</motion.span>
+
+                <motion.span initial="hidden" animate="visible" variants={{
+                    hidden : {
+                        scale : 0,
+                        opacity : 0
+                    },
+                    visible : {
+                        scale : 1.5,
+                        opacity : 1,
+                        transition : {
+                            delay : 1
+                        }
+
+                    }
+                }} className={styles.bigtitle}> On n'arrête pas le progrès.</motion.span>
+
+                <motion.span initial="hidden" animate="visible" variants={{
+                    hidden : {
+                        scale : 0,
+                        opacity : 0
+                    },
+                    visible : {
+                        scale : 1.5,
+                        opacity : 1,
+                        transition : {
+                            delay : 1
+                        }
+
+                    }
+                }} className={styles.bigtitle}> On l'accélère</motion.span>
 
                 <div className={styles.iphoneswrapper}>
 
-                    <div className={styles.leftiphone}>
+                    <motion.div initial="hidden" animate="visible" variants={{
+                    hidden : {
+                        scale : 1,
+                        opacity : 0,
+                        left : -1000
+
+                    },
+                    visible : {
+                        scale : 1,
+                        opacity : 1,
+                        left : 0,
+                        transition : {
+                            delay : 1,
+                            duration : 1 
+                        }
+
+                    }
+                }}className={styles.leftiphone}>
                         <img className={styles.imgiphone} src="/iphoneleft.png" alt="iphone12Pro"></img>
-                    </div>
+                    </motion.div>
 
-                    <div className={styles.middleiphone}>
+                    <motion.div initial="hidden" animate="visible" variants={{
+                    hidden : {
+                        scale : 1,
+                        opacity : 0,
+                        top : -1000
+                    },
+                    visible : {
+                        scale : 1,
+                        opacity : 1,
+                        top: 250,
+                        transition : {
+                            delay : 1,
+                            duration : 1.5
+                        }
+                    }
+                }} className={styles.middleiphone}>
                         <img className={styles.imgiphone} src="/iphonemiddle.png" alt="iphone12Pro"></img>
-                    </div>
+                    </motion.div>
 
-                    <div className={styles.rightiphone}>
+                    < motion.div initial="hidden" animate="visible" variants={{
+                    hidden : {
+                        scale : 1,
+                        opacity : 0,
+                        right : -1000
+                    },
+                    visible : {
+                        scale : 1,
+                        opacity : 1,
+                        right: 0,
+                        transition : {
+                            delay : 1,
+                            duration : 1.5
+                        }
+                    }
+                }}  className={styles.rightiphone}>
                         <img className={styles.imgiphone} src="/iphoneright.png" alt="iphone12Pro"></img>
-                    </div>
+                    </motion.div>
 
                 </div>
 
