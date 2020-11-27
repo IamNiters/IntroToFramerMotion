@@ -84,15 +84,15 @@ export default function Sandbox () {
                 <div className={styles.iphoneswrapper}>
 
                     <div className={styles.leftiphone}>
-                        <img src="/iphoneleft.png" alt="iphone12Pro"></img>
+                        <img className={styles.imgiphone} src="/iphoneleft.png" alt="iphone12Pro"></img>
                     </div>
 
                     <div className={styles.middleiphone}>
-                        <img src="/iphonemiddle.png" alt="iphone12Pro"></img>
+                        <img className={styles.imgiphone} src="/iphonemiddle.png" alt="iphone12Pro"></img>
                     </div>
 
                     <div className={styles.rightiphone}>
-                        <img src="/iphoneright.png" alt="iphone12Pro"></img>
+                        <img className={styles.imgiphone} src="/iphoneright.png" alt="iphone12Pro"></img>
                     </div>
 
                 </div>

@@ -26,7 +26,7 @@
     display : flex;
     flex-direction: column;;
     height: auto;
-    width: 60vw;
+    width: 75vw;
     background-color:rgb(3, 3, 3);
 }
 
@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 5%;
+    height: 60px;
     width: 100%;
     background-color: rgba(145, 145, 145, 0.041);
 }
@@ -62,7 +62,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 8%;
+    height: 80px;
     width: 100%;
 }
 
@@ -132,38 +132,39 @@
 .iphoneswrapper {
     display: flex;
     flex-direction: row;
-    height: 1=200%;
+    height: auto;
     width: 90%;
-    margin: auto;
-    background-color: wheat;   
+    margin : auto;
+    justify-content: center;   
     position: static;
-    z-index: 0;
+    z-index: 1;
 }
 
 .leftiphone {
-    display: flex;
     height: 950px;
-    left: 6%;
-    position: absolute;
+    position: relative;
+    left : 150px ;  
     z-index: 2;
 }
 
 .middleiphone {
-    display: flex;
     height: 950px;
-    position: absolute;
-    left : 22%;
-    top : 700px;
+    position: relative;
+    top : 200px;
     z-index: 4;
 }
 
 .rightiphone {
+    height: 950px;
+    position: relative;
+    right : 150px;
+    z-index: 3;
+}
+
+.imgiphone {
     display: flex;
     height: 950px;
-    left : 35%; 
-    top : 1000px;
-    position: absolute;
-    z-index: 3;
+    width : auto;
 }
 
 /*********************************************/
@@ -179,7 +180,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 40vw;
+    width: 25vw;
 }
 
 
