@@ -6,7 +6,7 @@ export default function Sandbox () {
     return (
         <div>
             <Head>
-                <title>Anim Lab</title>
+                <title>FramerMotion Intro</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             
@@ -68,6 +68,7 @@ export default function Sandbox () {
                 <nav className={styles.navproductref}>
                     <div className={styles.leftproductref}>
                         <span className={styles.xsmalltitle}> iPhone 12 Pro</span>
+                        <span className={styles.xxxsmalltitle}>Nouveau</span>
                     </div>
 
                     <div className={styles.rightproductref}>
@@ -97,10 +98,11 @@ export default function Sandbox () {
 
                 </div>
 
-            </section>
-
-            <section className={styles.iphonebreakdown}>
-                <h1>Hello React World</h1>
+                <div className={styles.photoparagraph}>
+                    <span className={styles.bigtitlevarun}>Système photo pro</span>
+                    <span className={styles.bigtitlevardeux}>Le mode Nuit sous</span>
+                    <span className={styles.bigtitlevardeux}>un nouveau jour.</span>
+                </div>
 
             </section>
             </main>

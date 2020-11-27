@@ -26,7 +26,7 @@
     display : flex;
     flex-direction: column;;
     height: auto;
-    width: 75vw;
+    width: 100vw;
     background-color:rgb(3, 3, 3);
 }
 
@@ -62,14 +62,18 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     height: 80px;
-    width: 100%;
+    width: 80%;
 }
 
 .leftproductref {
     display: flex;
+    flex-direction: column;
     width: 50%;
     height: 100%;
+    padding-top: 10px;
     align-items: center;
     justify-content: center;
 }
@@ -104,6 +108,12 @@
     padding-right : 10px;
     background-color: #0071E3;
     border-radius: 55px;
+}
+
+.xxxsmalltitle {
+    color : rgb(255, 94, 0);
+    font-weight: 600;
+    font-size: 0.7rem;
 }
 
 .xsmalltitle  {
@@ -167,31 +177,35 @@
     width : auto;
 }
 
-/*********************************************/
-/************ IPHONE SECTION *****************/
-/*********************************************/
-
-/*********************************************/
-/*********** IPHONE BREAKDOWN ****************/
-/*********************************************/
-
-.iphonebreakdown {
+.photoparagraph {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 25vw;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    width: auto;
+    z-index: 5;
 }
 
+.bigtitlevarun {
+    text-align: left;
+    color : whitesmoke;
+    margin-bottom: -5px;
+    font-weight: 650;
+    font-size: 3rem;
+}
 
-
-
-
-
-
+.bigtitlevardeux {
+    text-align: left;
+    color :white;
+    margin-bottom: -5px;
+    font-weight: 650;
+    font-size: 3rem;
+}
 
 /*********************************************/
-/*********** IPHONE BREAKDOWN ****************/
+/************ IPHONE SECTION *****************/
 /*********************************************/
 
 /************************************************************************************************************************/
