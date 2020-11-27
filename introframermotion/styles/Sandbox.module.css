@@ -4,9 +4,10 @@
 
 .herosection {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: royalblue;
+    background-color: rgb(255, 255, 255);
     height: 150px;
     width: 100%;
 }
@@ -14,6 +15,10 @@
 .mainwrapper {
     display : flex; 
     flex-direction: row;
+}
+
+.githublink {
+    font-size: 15px;
 }
 
 /************************************************************************************************************************/

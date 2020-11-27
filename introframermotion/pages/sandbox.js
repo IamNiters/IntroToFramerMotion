@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Sandbox.module.css"
+import Link from "next/link";
 import {motion} from "framer-motion";
 
 export default function Sandbox () {
@@ -11,22 +12,10 @@ export default function Sandbox () {
             </Head>
             
             <section className={styles.herosection}>
-            <motion.div initial="hidden" animate="visible" variants={{
-                hidden : {
-                    scale : 0.8,
-                    opacity: 0
-                },
-                
-                visible: {
-                    scale: 2,
-                    opacity: 1,
-                    transition  : {
-                        delay: 0.4
-                    }
-                }
-            }}>
-                <h1>Hello Next World</h1>
-            </motion.div>
+            
+                <h1>Hello Wilder !</h1>
+                <a className={styles.githublink} href="https://github.com/iamniters">Check my Github !</a>
+
             </section>
 
             <main className={styles.mainwrapper}>
